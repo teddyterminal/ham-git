@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'your' ] && [ $2 = 'flame' ]
+then
+	git pull "${@:3}"
+fi

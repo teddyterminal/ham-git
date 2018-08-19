@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'fire' ]
+then
+	git push "${@:2}"
+fi

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'of' ] && [ $2 = 'every' ] && [ $3 = 'check' ]
+then
+	git log "${@:4}"
+fi

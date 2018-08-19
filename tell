@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'your' ] && [ $2 = 'story' ]
+then
+	git status "${@:3}"
+fi

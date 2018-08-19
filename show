@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'what' ] && [ $2 = 'they' ] && [ $3 = 'up' ] && [ $4 = 'against' ] 
+then
+	git diff "${@:5}"
+fi
