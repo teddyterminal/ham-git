@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'the' ] && [ $2 = 'money' ] && [ $3 = 'and' ] && [ $4 = 'see' ] && [ $5 = 'where' ] && [ $6 = 'it' ] && [ $7 = 'goes' ]
+then
+	git grep "${@:8}"
+fi

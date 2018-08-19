@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'downstairs' ]
+then
+	git fetch "${@:2}"
+fi

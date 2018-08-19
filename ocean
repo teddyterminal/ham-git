@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'away' ]
+then
+	git remote "${@:2}"
+fi

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'name' ] && [ $2 = 'is' ]
+then
+	git config "${@:3}"
+fi

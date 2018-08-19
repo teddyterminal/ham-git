@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'your' ] && [ $2 = 'son' ]
+then
+	git branch "${@:3}"
+fi
