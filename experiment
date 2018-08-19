@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $1 == 'begins' ]
+if [ $1 = 'begins' ]
 then
-	git init
+	git init "${@:2}"
 fi

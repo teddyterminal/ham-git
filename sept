@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'huit' ] && [ $2 = 'neuf' ]
+then
+	git rm "${@:3}"
+fi
