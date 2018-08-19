@@ -6,7 +6,7 @@ into a Git command.
 
 To install, clone the repository, and simply run 
 ```chmod +x *```
-in the terminal to make every file in the repository executable. Then add the repository to your ```PATH``` in your local ```~/.bash_profile```.
+to make every file in the repository executable. Then add the repository to your ```PATH``` in your local ```~/.bash_profile```.
 
 Commands represented: \
 ```git init``` = ```experiment begins```\
