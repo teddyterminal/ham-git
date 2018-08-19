@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'no' ] && [ $2 = 'higher' ]
+then
+	git tag "${@:3}"
+fi
