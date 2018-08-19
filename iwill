@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'kill' ] && [ $2 = 'your' ] && [ $3 = 'friends' ] && [ $4 = 'and' ] && [ $4 = 'family' ]
+then
+	git rebase "${@6}"
+fi

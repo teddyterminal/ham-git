@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'eliza' ] && [ $2 = 'peggy' ]
+then
+	git clone "${@:3}"
+fi

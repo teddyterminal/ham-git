@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'was' ] && [ $2 = 'wide' ] && [ $3 = 'enough' ]
+then
+	git merge "${@:4}"
+fi

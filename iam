@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 = 'not' ] && [ $2 = 'throwing' ] && [ $3 = 'away' ] && [ $4 = 'my' ] && [ $5 = 'shot' ]
+then
+	git checkout "${@:6}"
+fi
