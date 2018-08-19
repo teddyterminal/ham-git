@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $1 == 'the' ] && [ $2 == 'job' ] && [ $4 == 'done' ]
+then
+	git commit "${@:4}"
+fi
